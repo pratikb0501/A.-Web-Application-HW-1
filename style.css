@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #46e9ec;
+  --background: #e0e0e063;
+  --card-bgColor: #e0e0e0;
+  --footerbg : black;
+}
+
+body {
+  height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #e0e0e063;
+background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+}
+
+label{
+    font-family: "Playfair Display", serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: var(--footerbg);
+}
+.header--title{
+    color: white;
+    font-size: 2rem;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    border: 1px solid var(--footerbg);
+    margin: 0.5rem 0;
+    width: 60%;
+    border-radius: 10px;
+    padding: 1rem;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+    background-color: #e0e0e063;
+}
+.form--text{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 3px;
+}
+textarea{
+    padding: 1rem;
+    border-radius: 3px; 
+    resize: none;
+}
+select{
+    height: 2rem;
+    border-radius: 3px;
+}
+button{
+    padding: 0.8rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 10rem;
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: var(--footerbg);
+    color: white;
+
+}
+.mb{
+    margin-bottom: 10px;
+}
+.ml{
+    margin-left: 5px;
+}
+.df{
+    display: flex;
+    align-items: center;
+}
+.form--radio{
+    display: flex;
+}
+.form--radio--label{
+    width: 20%;
+}
+.form--btn{
+    justify-content: center;
+}
+.footer--heading {
+    padding: 0.5em;
+    text-align: center;
+    background-color: var(--footerbg);
+    color: white;
+    justify-content: center;
+}
+
+.footer--img {
+height: 1.5rem;
+}
+.footer--logo {
+    margin: 0.7rem 1.5rem;
+  }
